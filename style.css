@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(346deg, 17%, 70%);
+    display: flex;
+}
+#part1
+{
+    height: 100%;
+    width: 26%;
+   /* background-color: red;*/
+}
+
+#part2
+{
+    height: 100%;
+    width: 54%; 
+    background-color:lightcoral;
+    background-image: url(https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position:center ;
+
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#part2 .img
+{
+    background-size: cover;
+    background-position: center;
+}
+
+#part3
+{
+    height: 100%;
+    width: 7%;
+   /* background-color: red;*/
+}
+#text
+{
+     position: absolute;
+    width: 350px;
+    left: 7%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text>h1
+{
+    font-size: 95px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 6px;
+    font-weight: 990;
+    line-height: 88px;
+    color: white;
+    
+}
+#side-img
+{
+    background-image: url(https://images.unsplash.com/photo-1523264766116-1e09b3145b84?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D );;
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    position:absolute;
+    top: 50%;
+    right: 16%;
+    transform: translate(0,-40%);
+}
+#vertical-text
+{
+    position: absolute;
+    right: -30%;
+    transform-origin: 0% 0%;
+    transform: rotate(90deg);
+    text-transform: u;
+}
+#vertical-text>h1{
+    font-size: 60px;
+    font-weight: 900;
+    font-family:sans-serif;
+    -webkit-text-stroke-width:2px ;
+    -webkit-text-stroke-color:#fff ;
+    color: transparent;
+    letter-spacing: 5px;
+
+}
